@@ -18,16 +18,22 @@ This little lovely game was designed, developed and published by me alone.
 Starting from thinking of an educational game idea,
 to skeching some drawings, to reading some chemistry documents, to designing the characters and images in photoshop, to development and beyond that.
 
+![icon](/docs/icon4.png)
 
 **See it Live**
 
 You can check and play the game on [google store](https://play.google.com/store/apps/details?id=com.mandeleev.game.mandeleev)
+
+Or you can watch this [1-minute video on youtube](https://www.youtube.com/watch?v=sk9gPEhIfBw)
+
 
 **Want to know more??**
 
 If you love reading, take a look at **[this report](https://github.com/AyhamJaradat/MendeleevGame/blob/main/docs/Mendeleev1.pdf)** that explains all of the details about the game.
 
 ## ScreenShots :
+
+![screenshot1](/docs/feature_image1.png)
 
 ![screenshot1](/docs/screenshots/screenshot1.jpeg)
 
