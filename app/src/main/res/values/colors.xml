@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="levelCardColor1">#e7e7e7</color>
+    <color name="MoleclevelCardColor">#77e7e7e7</color>
+    <color name="black">#ff000000</color>
+
+    <color name="levelCardColor2">#fc9</color>
+    <!-- colors of levels (10)-->
+ <!--   <color name="baseColor1">#dd33ff33</color>&lt;!&ndash;Non Metal&ndash;&gt;
+    <color name="baseColor2">#ddffcc33</color>&lt;!&ndash;Alkali Metals&ndash;&gt;
+    <color name="baseColor3">#ddffff33</color>&lt;!&ndash;Alkaline Earth&ndash;&gt;
+    <color name="baseColor4">#ddcc9999</color>&lt;!&ndash;Transition Metal&ndash;&gt;
+    <color name="baseColor5">#dd66ccff</color>&lt;!&ndash;Noble Gas&ndash;&gt;
+    <color name="baseColor6">#dd33ffcc</color>&lt;!&ndash;Halogen&ndash;&gt;
+    <color name="baseColor7">#dd66cc99</color>&lt;!&ndash;Semi Metal&ndash;&gt;
+    <color name="baseColor8">#dd99cccc</color>&lt;!&ndash;Basic Metal&ndash;&gt;
+    <color name="baseColor9">#ddffcc99</color>&lt;!&ndash;Lanthanides&ndash;&gt;
+    <color name="baseColor10">#ddffcccc</color>&lt;!&ndash;Actinides&ndash;&gt;-->
+
+    <color name="baseColor1">#9933ff33</color>
+    <color name="baseColor2">#99ffcc33</color>
+    <color name="baseColor3">#99ffff33</color>
+    <color name="baseColor4">#99cc9999</color>
+    <color name="baseColor5">#9966ccff</color>
+    <color name="baseColor6">#9933ffcc</color>
+    <color name="baseColor7">#9966cc99</color>
+    <color name="baseColor8">#9999cccc</color>
+    <color name="baseColor9">#99ffcc99</color>
+    <color name="baseColor10">#99ffcccc</color>
+    <color name="grey">#ffF0F0F0</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textGrayColor">#585858</color>
+    <color name="textBlackColor">#000</color>
+    <color name="compound_Level_color">#99530f81</color>
+
+
+   <!-- <color name="baseColor1">#3f3</color>&lt;!&ndash;Non Metal&ndash;&gt;
+    <color name="baseColor2">#fc3</color>&lt;!&ndash;Alkali Metals&ndash;&gt;
+    <color name="baseColor3">#ff3</color>&lt;!&ndash;Alkaline Earth&ndash;&gt;
+    <color name="baseColor4">#c99</color>&lt;!&ndash;Transition Metal&ndash;&gt;
+    <color name="baseColor5">#6cf</color>&lt;!&ndash;Noble Gas&ndash;&gt;
+    <color name="baseColor6">#3fc</color>&lt;!&ndash;Halogen&ndash;&gt;
+    <color name="baseColor7">#6c9</color>&lt;!&ndash;Semi Metal&ndash;&gt;
+    <color name="baseColor8">#9cc</color>&lt;!&ndash;Basic Metal&ndash;&gt;
+    <color name="baseColor9">#fc9</color>&lt;!&ndash;Lanthanides&ndash;&gt;
+    <color name="baseColor10">#fcc</color>&lt;!&ndash;Actinides&ndash;&gt;-->
+</resources>

@@ -1,0 +1,302 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="GameScreen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LLScreen" parent="@style/GameScreen">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <!--<item name="android:padding">30dp</item>-->
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="LevelCard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+       <!-- <item name="android:layout_columnWeight">1</item>-->
+        <item name="android:layout_margin">1dp</item>
+       <!-- <item name="android:layout_rowWeight">3</item>-->
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">1dp</item>
+        <item name="cardMaxElevation">1dp</item>
+        <item name="android:tag">LevelTag</item>
+        <item name="cardBackgroundColor">@color/levelCardColor1</item>
+    </style>
+
+    <style name="MolecLevelCard1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+      <!--  <item name="android:layout_columnWeight">1</item>-->
+        <item name="android:layout_margin">8dp</item>
+     <!--   <item name="android:layout_rowWeight">1</item>-->
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">1dp</item>
+        <item name="cardMaxElevation">1dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardBackgroundColor">@color/MoleclevelCardColor</item>
+
+
+    </style>
+
+    <style name="LevelCard1" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor1</item>
+    </style>
+
+    <style name="LevelCard2" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor2</item>
+    </style>
+
+    <style name="LevelCard3" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor3</item>
+    </style>
+
+    <style name="LevelCard4" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor4</item>
+    </style>
+
+    <style name="LevelCard5" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor5</item>
+    </style>
+
+    <style name="LevelCard6" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor6</item>
+    </style>
+
+    <style name="LevelCard7" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor7</item>
+    </style>
+
+    <style name="LevelCard8" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor8</item>
+    </style>
+
+    <style name="LevelCard9" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor9</item>
+    </style>
+
+    <style name="LevelCard10" parent="@style/LevelCard">
+        <item name="cardBackgroundColor">@color/baseColor10</item>
+    </style>
+
+    <style name="LevelCardInvisible" parent="@style/LevelCard">
+        <item name="android:visibility">invisible</item>
+       <!-- <item name="android:layout_rowWeight">1</item>-->
+        <item name="android:tag">NotLevelTag</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="LevelCardTranslation" parent="@style/LevelCard">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:tag">NotLevelTag</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="MolecLevelCardLiner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:weightSum">3</item>
+        <item name="android:background">@drawable/box22</item>
+
+    </style>
+
+    <style name="LevelCardLiner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:weightSum">3</item>
+        <item name="android:background">@drawable/box22</item>
+
+    </style>
+
+
+    <style name="lockedLevelImage">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">start</item>
+        <item name="android:src">@drawable/lock</item>
+        <item name="android:tag">lockedLevelImage</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="lockedLevelImage2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--<item name="android:layout_weight">4</item>-->
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">start</item>
+        <item name="android:src">@drawable/lock</item>
+        <item name="android:tag">lockedLevelImage</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="LockImageView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    <!--    <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>-->
+        <item name="android:visibility">invisible</item>
+
+    </style>
+
+    <style name="LockImageView1" parent="LockImageView">
+
+        <item name="android:src">@drawable/lock</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:gravity">start</item>
+        <item name="android:alpha">0.6</item>
+    </style>
+
+    <style name="cardFrame">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:tag">cardFrame</item>
+        <item name="android:background">@drawable/gray_base_color1</item>
+    </style>
+    <style name="cardFramexx">
+        <!-- <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>-->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    <!--    <item name="android:layout_columnWeight">1</item>-->
+        <item name="android:layout_margin">8dp</item>
+       <!-- <item name="android:layout_rowWeight">1</item>-->
+        <item name="android:tag">cardFrame</item>
+        <item name="android:background">@drawable/gray_base_color1</item>
+    </style>
+
+    <style name="lockGrid">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--<item name="android:columnCount">2</item>-->
+       <!-- <item name="android:rowCount">2</item>-->
+        <item name="android:visibility">visible</item>
+        <item name="android:tag">lockGrid</item>
+    </style>
+ <style name="lockGridxx">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:tag">lockGrid</item>
+    </style>
+
+    <style name="levelSymbolTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:tag">levelSymbolTextView</item>
+        <item name="android:translationY">-4dp</item>
+        <item name="android:layout_gravity">fill</item>
+    </style>
+
+    <style name="levelNumberTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:tag">levelNumberTextView</item>
+        <item name="android:translationY">-4dp</item>
+
+    </style>
+
+    <style name="levelSymbolTextView1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:tag">levelSymbolTextView</item>
+        <item name="android:translationY">2dp</item>
+        <item name="android:layout_gravity">fill</item>
+    </style>
+
+    <style name="MolecTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:tag">MolecTextView</item>
+        <item name="android:translationY">0dp</item>
+        <!--<item name="android:layout_gravity">fill</item>-->
+        <!--<item name="android:paddingBottom">5dip</item>-->
+    </style>
+
+    <style name="levelTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:tag">levelTextView</item>
+        <item name="android:paddingBottom">4dip</item>
+    </style>
+
+    <style name="levelNumberTextView1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:tag">levelNumberTextView</item>
+        <item name="android:paddingBottom">1dip</item>
+
+
+    </style>
+
+    <style name="MainScreenButton">
+        <item name="android:textColor">@color/ButtonTextColor</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="android:background">@drawable/btn_bg1</item>-->
+        <!--<item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>-->
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <color name="ButtonTextColor">#ffffff</color>
+</resources>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Mendeleev</string>
+    <string name="game_problem">An error occurred while starting the game. Please try again.</string>
+    <string name="preference_file_key">com.mandeleev.game.preferences</string>
+    <string name="saved_high_level_key">xyzlevel</string>
+    <string name="saved_high_level_key2">levelxyz</string>
+
+
+    <string name="is_english_key">is_english</string>
+    <string name="is_left_hand_key">is_left</string>
+    <string name="is_sounds_off_key">is_sounds_off</string>
+    <string name="left_free_levels_key">left_free_levels_key</string>
+    <string name="left_free_levels_key2">left_free_levels_key2</string>
+
+    <string name="level_faild">Level Failed</string>
+    <string name="level_faild_t">Seviye Geçilemedi</string>
+    <string name="level_cleared">Level Cleared</string>
+    <string name="level_cleared_t">Seviye Geçildi</string>
+
+    <!--settings english-->
+    <string name="settings_label">SETTINGS</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_play_with">Play With</string>
+    <string name="settings_sounds">Game Sounds</string>
+
+    <string name="radio_english">English</string>
+    <string name="radio_turkish">Turkish</string>
+
+    <string name="radio_left_hand">Left Hand</string>
+    <string name="radio_right_hand">Right Hand</string>
+
+    <string name="radio_off">Off</string>
+    <string name="radio_on">On</string>
+
+    <!--settings turkish-->
+    <string name="settings_label_t">AYARLAR</string>
+    <string name="settings_language_t">Dil</string>
+    <string name="settings_play_with_t">Kullanılacak el</string>
+    <string name="settings_sounds_t">Ses</string>
+
+    <string name="radio_english_t">İngilizce</string>
+    <string name="radio_turkish_t">Türkçe</string>
+
+    <string name="radio_left_hand_t">Sol eli</string>
+    <string name="radio_right_hand_t">Sağ eli</string>
+
+    <string name="radio_off_t">Kapalı</string>
+    <string name="radio_on_t">Açık</string>
+
+    <!--profile english-->
+    <string name="group_label">GROUP</string>
+    <string name="period_label">PERIOD</string>
+    <string name="atomic_n_label">ATOMIC NUMBER:</string>
+    <string name="electron_label">ELECTRON</string>
+    <string name="proton_label">PROTON</string>
+    <string name="untron_label">NEUTRON</string>
+    <string name="phase_label">PHASE:</string>
+    <string name="type_label">SERIES:</string>
+    <string name="color_label">COLOR:</string>
+    <string name="year_label">DISCOVERY YEAR:</string>
+    <string name="mission_label">Mission:</string>
+    <string name="stay_safe"> Stay Safe</string>
+
+    <!--profile turkısh-->
+    <string name="group_label_t">GRUP</string>
+    <string name="period_label_t">PERİYOT</string>
+    <string name="atomic_n_label_t">ATOMİK NUMARASI:</string>
+    <string name="electron_label_t">ELEKTRON</string>
+    <string name="proton_label_t">PROTON</string>
+    <string name="untron_label_t">NÖTRON</string>
+    <string name="phase_label_t">FIZIKSEL HÂLI:</string>
+    <string name="type_label_t">SINIF:</string>
+    <string name="color_label_t">RENK:</string>
+    <string name="year_label_t">KEŞIF YILI:</string>
+    <string name="mission_label_t">Görev:</string>
+    <string name="stay_safe_t"> Hiçbir Şeyle Çarpışma</string>
+
+    <!--general-->
+    <string name="exit_game_label">Exit Game!!</string>
+    <string name="exit_game_label_t">Oyundan Çık !!</string>
+    <string name="areyou_sure_label">Are you sure?</string>
+    <string name="areyou_sure_label_t">Emin misin?</string>
+
+    <string name="leave_game_label">Leave The Game!!</string>
+    <string name="leave_game_label_t">Oyunu Bırak !!</string>
+
+
+    <string name="test_string">X&lt;sub&gt;3&lt;/sub&gt;</string>
+    <string name="test_string4">H₂O</string>
+    <string name="test_string2">X&lt;sub&gt;&lt;small&gt;3&lt;/small&gt;&lt;/sub&gt;</string>
+    <string name="test_string3">X&lt;sub&gt;3&lt;/sub&gt;</string>
+
+
+</resources>

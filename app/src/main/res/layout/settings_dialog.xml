@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:background="@drawable/dialog_bg1"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- android:minHeight="600dp"-->
+
+    <TextView
+        android:id="@+id/settingsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/settings_label" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/languageLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/settings_language" />
+
+
+    <RadioGroup
+        android:id="@+id/radioLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbEnglishLang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="@string/radio_english" />
+
+        <RadioButton
+            android:id="@+id/rbTurkishLang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="@string/radio_turkish" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/playWithLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/settings_play_with" />
+
+
+    <RadioGroup
+        android:id="@+id/radioPlayWith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbLeftHand"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/radio_left_hand" />
+
+        <RadioButton
+            android:id="@+id/rbRightHand"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="@string/radio_right_hand" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/soundsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/settings_sounds" />
+
+
+    <RadioGroup
+        android:id="@+id/radioSounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbOff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/radio_off" />
+
+        <RadioButton
+            android:id="@+id/rbOn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="@string/radio_on" />
+    </RadioGroup>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/settingNoBtn"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/no" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/settingsYesBtn"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/yes" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>
